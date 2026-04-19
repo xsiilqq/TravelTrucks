@@ -1,0 +1,51 @@
+.page {
+    padding: 48px 64px 80px;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    gap: 64px;
+    align-items: start;
+    background-color: #ffffff;
+}
+
+.sidebar {
+    position: sticky;
+    top: 24px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.loadMore {
+    margin-top: 40px;
+    min-width: 145px;
+    height: 56px;
+    border: 1px solid #dadde1;
+    border-radius: 200px;
+    background-color: transparent;
+    color: #101828;
+    font-size: 16px;
+    font-weight: 500;
+    transition: border-color 0.2s ease, color 0.2s ease;
+    transition: 0.2s;
+}
+
+.loadMore:hover {
+    border-color: #6d7b75;
+    color: #101828;
+}

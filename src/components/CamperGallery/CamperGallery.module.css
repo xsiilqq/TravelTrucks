@@ -1,0 +1,56 @@
+.gallery {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mainImageWrap {
+    position: relative;
+    flex: 1 1 auto;
+    width: 100%;
+    min-height: 420px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+.mainImage {
+    object-fit: cover;
+}
+
+.thumbs {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+.thumbButton {
+    width: 135px;
+    height: 144px;
+    flex: 0 0 135px;
+    padding: 0;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.activeThumb {
+    border-color: #8fa79b;
+}
+
+.thumbWrap {
+    position: relative;
+    width: 135px;
+    height: 144px;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+.thumbImage {
+    object-fit: cover;
+}

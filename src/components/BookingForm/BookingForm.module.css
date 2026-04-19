@@ -1,0 +1,93 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 44px;
+  border: 1px solid #dadde1;
+  border-radius: 24px;
+  background-color: #ffffff;
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 28px;
+  line-height: 1.15;
+  font-weight: 600;
+  color: #101828;
+}
+
+.text {
+  margin: 0 0 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6c717b;
+}
+
+.form {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+  outline: none;
+}
+
+.input {
+  height: 56px;
+  padding: 18px;
+}
+
+.textarea {
+  min-height: 118px;
+  padding: 18px 20px;
+  resize: none;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #6c717b;
+}
+
+.error {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #e44848;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+padding: 16px 60px;
+
+  height: 56px;
+  margin-top: auto;
+  border: none;
+  border-radius: 999px;
+  background-color: #8fa79b;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #6d7b75;
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
