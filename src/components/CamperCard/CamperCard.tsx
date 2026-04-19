@@ -41,6 +41,7 @@ export default function CamperCard({ camper }: Props) {
           src={image}
           alt={camper.name}
           fill
+          sizes="220px"
           className={styles.image}
         />
       </div>
