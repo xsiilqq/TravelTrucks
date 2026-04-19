@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TravelTrucks
 
-## Getting Started
+TravelTrucks is a frontend web application for a camper rental company.  
+The project was created with Next.js and TypeScript.
 
-First, run the development server:
+## Main features
+
+- Home page with a hero banner and call to action
+- Catalog page with camper cards
+- Backend filtering by location, body type, engine type, and transmission
+- Load More pagination
+- Camper details page in a new browser tab
+- Camper image gallery
+- Reviews with star rating
+- Booking form with success notification
+- Custom loading state
+- Styled 404 page
+
+## Technologies
+
+- Next.js
+- TypeScript
+- TanStack Query
+- React Hook Form
+- CSS Modules
+- Axios
+- React Hot Toast
+
+## Project structure
+
+- `/` - home page
+- `/catalog` - campers catalog
+- `/catalog/[camperId]` - camper details page
+
+## Installation and running
+
+1. Clone the repository:
+
+```bash
+git clone <your-repository-link>
+```
+
+2. Go to the project folder:
+
+```bash
+cd travel-trucks
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Build
 
-## Learn More
+To create a production build, run:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- GitHub repository: [add your GitHub link here]
+- Live page: [add your Vercel or Netlify link here]
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed by Vlada.
